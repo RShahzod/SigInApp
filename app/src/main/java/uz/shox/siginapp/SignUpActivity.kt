@@ -13,6 +13,7 @@ class SignUpActivity : AppCompatActivity() {
         val signInTxt = findViewById<TextView>(R.id.signInTxt)
         signInTxt.setOnClickListener {
             startActivity(Intent(this,SigInActivity::class.java))
+            finish()
         }
     }
 }

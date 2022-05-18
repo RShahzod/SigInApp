@@ -14,6 +14,7 @@ class SigInActivity : AppCompatActivity() {
 
         signUpTxt.setOnClickListener {
             startActivity(Intent(this,SignUpActivity::class.java))
+            finish()
         }
 
 
